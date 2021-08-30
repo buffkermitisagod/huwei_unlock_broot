@@ -3,6 +3,7 @@ import os
 import subprocess
 
 n = 9
+os.system("fastboot rebboot bootloder")
 while True:
     pro = itertools.product("1234567890", repeat=n)
     x = 0
